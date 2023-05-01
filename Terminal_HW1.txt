@@ -1,0 +1,29 @@
+1) pwd
+2) mkdir 
+3) cd 
+4) mkdir 1 2 3 
+5) cd 1
+6) touch 1.txt 2.txt 3.txt 4.json 5.json
+7) mkdir dir1 dir2 dir3
+8) ls -la
+9) vim 1.txt
+10-11) press i > write some text > press esc > :w :qa
+12) cd ..
+13) mv 1.txt 2.txt dir2
+14) cp 3.txt 4.json dir3
+15) find . -name "script.*"
+16) tail -f script.sh | grep "cd"
+17) head -5 script.sh
+18) tail -4 script.sh
+19) less script.sh
+20) date
+*
+1)curl --data "hi" http://162.55.220.72:5005/terminal-hw-request
+2) make file .sh
+cd folder1/folder_1
+mkdir dir1 dir2 dir3
+cd dir1
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir dir4 dir5 dir6
+ls -la
+mv file1.txt file2.txt dir4
